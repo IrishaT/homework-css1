@@ -1,0 +1,144 @@
+:root {
+  background: white;
+}
+html {
+  color: black;
+}
+
+h1 {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+div.box div {
+  background: green;
+}
+
+div.box p {
+  background: red;
+}
+
+.brown {
+  background: brown;
+  color: white;
+}
+
+ul > li {
+  background: red;
+}
+/* виконувала буквально як записано в завданні
+ - там ніяк не виділено, класс/атрибут/ідентифікатор
+тому червоний фон розповсюдився на всі ули і лі  */
+
+.header-button + span {
+  background: red;
+}
+
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+
+.salo,
+#bread {
+  background: yellow;
+}
+
+.first-task ul li:first-child {
+  color: white;
+}
+
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+
+.third-task ul:last-child li:first-child {
+  color: yellow;
+}
+
+.four-task ul li:last-child {
+  color: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+  color: yellow;
+}
+
+.only-child-task div:only-child {
+  color: red;
+}
+
+.seven-task p:first-of-type {
+  background: red;
+}
+
+.eight-task p:last-of-type {
+  background: red;
+}
+
+.nine-task p:only-of-type {
+  background: yellow;
+}
+
+.lesson-three-task-one a[href] {
+  color: white;
+}
+
+.lesson-three-task-two [value] {
+  color: yellow;
+}
+
+.lesson-three-task-three [value='3'] {
+  background: red;
+}
+
+.lesson-three-task-four [class~='primary'] {
+  background: blue;
+}
+
+.lesson-three-task-five [class|='secondary'] {
+  background: red;
+}
+
+.lesson-three-task-six [class^='b'] {
+  color: green;
+  background: white;
+}
+
+.lesson-three-task-seven [class*='on'] {
+  color: green;
+  background: white;
+}
+
+.lesson-three-task-eight [class$='s'] {
+  background: white;
+  color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+  background: yellow;
+}
+/* хоча по факту тут підходить :first-of-type */
+
+.lesson-three-task-eleven input::placeholder {
+  background: red;
+}
+
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
